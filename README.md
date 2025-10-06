@@ -2,9 +2,9 @@
 
 ## 😄 Daily Joke
 
-**Sunday, October 05, 2025**
+**Monday, October 06, 2025**
 
-> You know that cemetery up the road? People are dying to get in there.
+> When does a joke become a dad joke? When it becomes apparent.
 
 ---
 
