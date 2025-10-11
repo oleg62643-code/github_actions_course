@@ -37,32 +37,32 @@ jobs:
                 DATE=$(date '+%A, %B %d, %Y')
                 JOKE="${{ steps.joke.outputs.joke }}"
                 
-                # Create or update README.md
-                cat > README.md << EOF
+                cat > README.md << 'EOF'
                 # GitHub Actions Course
-                
+            
                 ## 😄 Daily Joke
-                
-                **$DATE**
-                
-                > $JOKE
-                
+            
+                **${DATE}**
+            
+                > ${JOKE}
+            
                 ---
-                
-                *This joke is automatically updated daily by GitHub Actions at 7 AM UTC*
-                
+            
+                *This joke is automatically updated daily by GitHub Actions at 3 PM UTC*
+            
                 ## About This Repository
-                
+            
                 This repository contains examples and exercises for learning GitHub Actions.
-                
+            
                 ### Workflows Included:
                 - Expressions and Contexts
                 - External Events
                 - Manual Triggers
                 - Scheduled Jobs
                 - And more!
-                
+            
                 EOF
+
             
             - name: Commit and push changes
               run: |
