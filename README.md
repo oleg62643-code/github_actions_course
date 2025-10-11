@@ -2,13 +2,13 @@
 
 ## 😄 Daily Joke
 
-**Thursday, October 09, 2025**
+**${DATE}**
 
-> Child: Dad, make me a sandwich. Dad: Poof! You're a sandwich.
+> ${JOKE}
 
 ---
 
-*This joke is automatically updated daily by GitHub Actions at 7 AM UTC*
+*This joke is automatically updated daily by GitHub Actions at 3 PM UTC*
 
 ## About This Repository
 
