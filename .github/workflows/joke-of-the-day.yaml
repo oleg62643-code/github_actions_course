@@ -18,14 +18,15 @@ jobs:
         id: joke
         run: |
           RESPONSE=$(curl -s -H "Accept: application/json" https://icanhazdadjoke.com/)
-
           if [ $? -eq 0 ] && echo "$RESPONSE" | jq . > /dev/null 2>&1; then
             JOKE=$(echo "$RESPONSE" | jq -r .joke)
           else
             JOKE="Why don't scientists trust atoms? Because they make up everything!"
           fi
 
+          # write output for other steps
           echo "joke=$JOKE" >> $GITHUB_OUTPUT
+          # also print for logs
           echo "Today's joke: $JOKE"
 
       - name: Update README with daily joke
@@ -33,31 +34,17 @@ jobs:
           JOKE: ${{ steps.joke.outputs.joke }}
         run: |
           DATE=$(date '+%A, %B %d, %Y')
-          # Use an UNQUOTED heredoc (<<EOF) so shell variables expand here
-          cat > README.md <<EOF
-# GitHub Actions Course
-
-## 😄 Daily Joke
-
-${DATE}
-
-${JOKE}
-
----
-
-*This joke is automatically updated daily by GitHub Actions at 3 PM UTC*
-
-## About This Repository
-
-This repository contains examples and exercises for learning GitHub Actions.
-
-### Workflows Included:
-- Expressions and Contexts
-- External Events
-- Manual Triggers
-- Scheduled Jobs
-- And more!
-EOF
+          # Use printf to avoid heredoc/YAML indentation issues.
+          # We quote all variable expansions in printf to be safe with special characters.
+          printf '%s\n\n%s\n\n%s\n\n%s\n\n%s\n\n%s\n\n%s\n' \
+            "# GitHub Actions Course" \
+            "## 😄 Daily Joke" \
+            "**${DATE}**" \
+            "> ${JOKE}" \
+            "---" \
+            "*This joke is automatically updated daily by GitHub Actions at 3 PM UTC*" \
+            "## About This Repository\n\nThis repository contains examples and exercises for learning GitHub Actions.\n\n### Workflows Included:\n- Expressions and Contexts\n- External Events\n- Manual Triggers\n- Scheduled Jobs\n- And more!" \
+            > README.md
 
       - name: Commit and push changes
         run: |
