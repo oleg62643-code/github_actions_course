@@ -2,9 +2,9 @@
 
 ## 😄 Daily Joke
 
-**Wednesday, October 15, 2025**
+**Thursday, October 16, 2025**
 
-> So a duck walks into a pharmacy and says “Give me some chap-stick… and put it on my bill”
+> What did the doctor say to the gingerbread man who broke his leg? Try icing it.
 
 ---
 
