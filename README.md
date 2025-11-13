@@ -2,9 +2,9 @@
 
 ## 😄 Daily Joke
 
-**Wednesday, November 12, 2025**
+**Thursday, November 13, 2025**
 
-> Don’t interrupt someone working intently on a puzzle. Chances are, you’ll hear some crosswords.
+> What's blue and not very heavy?  Light blue.
 
 ---
 
