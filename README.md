@@ -2,9 +2,9 @@
 
 ## 😄 Daily Joke
 
-**Thursday, November 13, 2025**
+**Friday, November 14, 2025**
 
-> What's blue and not very heavy?  Light blue.
+> What is worse then finding a worm in your Apple? Finding half a worm in your Apple.
 
 ---
 
