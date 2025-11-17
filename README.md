@@ -2,9 +2,9 @@
 
 ## 😄 Daily Joke
 
-**Sunday, November 16, 2025**
+**Monday, November 17, 2025**
 
-> What did the big flower say to the littler flower? Hi, bud!
+> Ben & Jerry's really need to improve their operation. The only way to get there is down a rocky road.
 
 ---
 
