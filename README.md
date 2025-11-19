@@ -2,9 +2,9 @@
 
 ## 😄 Daily Joke
 
-**Tuesday, November 18, 2025**
+**Wednesday, November 19, 2025**
 
-> Conjunctivitis.com – now that’s a site for sore eyes.
+> What did celery say when he broke up with his girlfriend? She wasn't right for me, so I really don't carrot all.
 
 ---
 
