@@ -2,9 +2,9 @@
 
 ## 😄 Daily Joke
 
-**Wednesday, November 19, 2025**
+**Thursday, November 20, 2025**
 
-> What did celery say when he broke up with his girlfriend? She wasn't right for me, so I really don't carrot all.
+> Did you hear about the guy who invented Lifesavers? They say he made a mint.
 
 ---
 
