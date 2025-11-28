@@ -2,9 +2,9 @@
 
 ## 😄 Daily Joke
 
-**Thursday, November 27, 2025**
+**Friday, November 28, 2025**
 
-> I was shocked when I was diagnosed as colorblind... It came out of the purple.
+> What is the tallest building in the world? The library – it’s got the most stories!
 
 ---
 
