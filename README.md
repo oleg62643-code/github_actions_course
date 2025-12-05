@@ -2,9 +2,9 @@
 
 ## 😄 Daily Joke
 
-**Thursday, December 04, 2025**
+**Friday, December 05, 2025**
 
-> What’s the longest word in the dictionary? Smiles. Because there’s a mile between the two S’s.
+> What do you call a criminal going down the stairs? Condescending
 
 ---
 
